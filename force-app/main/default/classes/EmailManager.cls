@@ -22,7 +22,7 @@ global with sharing  class EmailManager {
         Catch(Exception ee)
 
         {
-
+            
         }
             List<C1__c> c1 = new List<C1__c>();
          
