@@ -17,7 +17,9 @@ export default class FileUploadData extends LightningElement {
                     let randomNumber = Math.floor(Math.random() * 90) + 10;
                     insertC1Excel(
                         {
-                            Name: data[0]+randomNumber,contact:data[1],acc:data[2]
+                            Name: data[0]+randomNumber,
+                            contact:data[1],
+                            acc:data[2]
                         }
                     ).then(result=>{
                         console.log(result)
